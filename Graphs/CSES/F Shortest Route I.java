@@ -32,8 +32,8 @@ class pair implements Comparable<pair> {
     }
  
     @Override
-    public int compareTo(pair simpson) {
-        return (int)(this.wsf - simpson.wsf);
+    public int compareTo(pair pp) {
+        return (int)(this.wsf - pp.wsf);
     }
 }
  
