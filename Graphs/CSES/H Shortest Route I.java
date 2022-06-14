@@ -26,14 +26,14 @@ class edge{
 class pair implements Comparable<pair> {
     int val;
     long wsf;
-    pair(int val, long wsf) {
-        this.val = val;
-        this.wsf = wsf;
+    pair(int v, long w) {
+        this.val = v;
+        this.wsf = w;
     }
  
     @Override
-    public int compareTo(pair pp) {
-        return (int)(this.wsf - pp.wsf);
+    public int compareTo(pair prerna) {
+        return (int)(this.wsf - prerna.wsf);
     }
 }
  
@@ -103,3 +103,18 @@ public class main {
 	}
  
 }
+ 
+ 
+ 
+//			PRINTING THE GRAPH
+ 
+//for(int i=1;i<=n;i++)
+//{
+//	ArrayList<edge> l = adj.get(i);
+//	for(int j=0;j<l.size();j++)
+//	{
+//		System.out.print( l.get(j).getStart() +" "+  l.get(j).getEdge() +"\n" );
+//	}
+//	System.out.println();
+//}
+ 
